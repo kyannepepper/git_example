@@ -12,6 +12,8 @@ while(guessed == False):
     print(numberOfGuesses)
     if numberOfGuesses == 5:
         print("Man this game was too tough. I give up.")
+        age = input("How old are you?")
+        print("I loose and you win " + str(age) + " years of free membership at contact")
         guessed = True
     elif user_response == 'y' or user_response == 'Y':
         print(f"haha! {name} is " + str(guess) + " yearse old! I guessed it!")
